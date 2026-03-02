@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Suaztes Painting & Remodeling</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="This is a website about painting houses">
+		<meta name="keywords" content="Remodeling, painting, Construction">
+		<meta name="author" content="Felipe Betancourt">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="BetancourtFelipeStyleSheet.css">
+	</head>
+	<body>
+	<ul class="menu">
+		<li><a href="BetancourtFelipeHomePage.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="table.html">Table</a></li>
+		<li><a href="form.html" class="active">Form</a></li>
+	</ul>
+		<form method="post" action="https://httpbin.org/post">
+		
+		<fieldset>
+		
+		<legend>Customer's Name:</legend>
+		First name:<br>
+		<input type="text" name="firstname"><br>
+		Last name:<br>
+		<input type="text" name="lastname"><br>
+
+		</fieldset>
+
+		<fieldset>
+
+		<legend>Student's Year in School:</legend>
+		Year in School:<br>
+		<input type="radio" name="year" value="freshman">Freshman<br>
+		<input type="radio" name="year" value="sophomore">Sophomore<br>
+		<input type="radio" name="year" value="junior">Junior<br>
+		<input type="radio" name="year" value="senior">Senior<br>
+
+		</fieldset>
+
+		<fieldset>
+
+		<legend>Subjects Student Enjoys:</legend>
+		Subjects I Enjoy:<br>
+		<input type="checkbox" name="subjects" value="math">Math<br>
+		<input type="checkbox" name="subjects" value="science">Science<br>
+		<input type="checkbox" name="subjects" value="programming">Programming<br>
+		<input type="checkbox" name="subjects" value="networking">Networking<br>
+
+		</fieldset>
+
+		<fieldset>
+
+		<legend>Student's Favorite Season:</legend>
+		What is your favorite season?<br>
+		<select name="season">
+		<option value="fall">Fall</option>
+		<option value="winter">Winter</option>
+		<option value="spring">Spring</option>
+		<option value="summer">Summer</option>
+		</select>
+
+		</fieldset>
+
+		<fieldset>
+
+		<legend>Student's Hobbies:</legend>
+		What are your hobbies?<br>
+		<select name="hobbies" multiple>
+		   <option value="reading">Reading</option>
+		   <option value="sports">Sports</option>
+		   <option value="movies">Movies</option>
+		   <option value="music">Music</option>
+		</select>
+
+		</fieldset>
+
+		<fieldset>
+
+		<legend>Additional Comments:</legend>
+		<textarea name="comments" rows="12" cols="40">
+		Enter your comments here...
+		</textarea>
+
+		</fieldset>
+
+		<fieldset>
+
+		<legend>Submit Your Form:</legend>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+
+		</fieldset>
+
+		</form>
+		
+	</body>
+</html>
